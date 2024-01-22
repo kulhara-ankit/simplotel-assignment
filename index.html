@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Simplotel Assignment</title>
 </head>
-
 <body>
-    <div class="main-container">
-        <nav class="navbar">
+    <div class="container">
+        <div class="navbar">
             <ul class="nav-list">
                 <li>Home</li>
                 <li>Order</li>
@@ -18,50 +16,56 @@
                 <li>Restaurant</li>
                 <li>Testimonials</li>
                 <li>Contact Us</li>
-                <img alt="humberg-icon" src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png" class="hamburger-icon" />
             </ul>
-            <img alt="humberg-icon" src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png" class="hamburger-icon-small-device" />
-        </nav>
-        <div class="background-container">
-            <div class="top-container">
-                <div class="left-description-container">
-                    <h1 class="top-container-heading">LOREM IPSUM</h1>
-                    <P class="top-container-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                        id est vitae dolor rhoncus tristique. Maecenas metus quam,
-                        rhoncus euismod lorem in, sollicitudin viverra eros. Donec
-                        dictum luctus quam ut tristique. Curabitur nec faucibus purus.
-                        Quisque congue sem nec justo mollis, in tincidunt erat pretium.
-                        Sed pulvinar, massa ac porta viverra.
-                    </P>
-                    <button class="content-left-button">Click Me</button>
+        </div>
+        <div class="collapsible-menu">
+            <input type="checkbox" id="menu">
+            <label class="menu" for="menu">
+                <div>
+                    <div class="hamburger-icon"></div>
+                    <div class="hamburger-icon"></div>
+                    <div class="hamburger-icon"></div>
                 </div>
-                <div class="image-section">
-                    <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg" class="right-image" />
-                </div>
-            </div>
-            <div class="bottom-container">
-                <div class="left-image-container">
-                    <div class="image-1-container">
-                        <img class="image-1" src="https://images.pexels.com/photos/6752433/pexels-photo-6752433.jpeg?cs=srgb&dl=pexels-rachel-claire-6752433.jpg&fm=jpg" />
-                        <img class="image-2" src="https://images.pexels.com/photos/6141651/pexels-photo-6141651.jpeg?cs=srgb&dl=pexels-eva-bronzini-6141651.jpg&fm=jpg" />
-                    </div>
-                    <img class="image-3" src="https://images.pexels.com/photos/3434523/pexels-photo-3434523.jpeg" />
-                </div>
-                <div class="left-bottom-description-container">
-                    <div class="lorem-ipsum-container">
-                        <div class="bottom-page-container">
-                            <p class="bottom-page-heading">LOREM IPSUM</p>
-                            <h1 class="bottom-page-description">LOREM IPSUM SET ADEMIR</h1>
-                            <div class="button-container">
-                                <button class="button">Click</button>
-                                <img class="arrowButton" src="https://www.freeiconspng.com/thumbs/arrow-icon/arrow-icon-28.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </label>
+            <div class="menu-content">
+                <ul>
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="#"></a>Order</li>
+                    <li><a href="#"></a>Food</li>
+                    <li><a href="#"></a>Restaurant</li>
+                    <li><a href="#"></a>Testimonials</li>
+                    <li><a href="#"></a>Contact Us</li>
+                </ul>
             </div>
         </div>
-    </div>
+        <div class="background">
+            <div class="content">
+                <div class="content-left">
+                    <h1 class="content-left-heading">LOREM IPSUM</h1>
+                    <p class="content-left-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate nemo animi, ad corporis consequatur possimus nesciunt consequuntur asperiores saepe, amet expedita quibusdam, libero eius doloribus suscipit ex omnis nostrum porro?</p>
+                    <button class="content-left-button">Click Me</button>
+                </div>
+                <div class="content-right">
+                    <img class="content-right-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg">
+                </div>
+            </div>
+            <div class="page-2" >
+                <div class="page-2-left" >
+                    <div class="grid-container">
+                        <img class="img-one" src="https://images.pexels.com/photos/6752433/pexels-photo-6752433.jpeg?cs=srgb&dl=pexels-rachel-claire-6752433.jpg&fm=jpg" alt="image1">
+                        <img class="img-two" src="https://images.pexels.com/photos/6141651/pexels-photo-6141651.jpeg?cs=srgb&dl=pexels-eva-bronzini-6141651.jpg&fm=jpg" alt="image2">
+                        <img class="img-three" src="https://images.pexels.com/photos/3434523/pexels-photo-3434523.jpeg" alt="image3">
+                    </div>
+                </div>
+                <div class="page-2-right">
+                    <div class="page-2-right-content">
+                        <p>LOREM IPSUM</p>
+                        <h>LOREM IPSUM SET ADEMIR</h>
+                        <button>Click<img class="arrow-button" src="https://www.freeiconspng.com/thumbs/arrow-icon/arrow-icon-28.png"></button>
+                    </div>
+                </div>  
+            </div>
+        </div> 
+    </div>   
 </body>
-
 </html>
